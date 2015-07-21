@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sms_gateway/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sms_gateway"
+  spec.name          = "sms_gateway-ruby"
   spec.version       = SmsGateway::VERSION
   spec.authors       = ["Carlos Palhares"]
   spec.email         = ["me@xjunior.me"]
